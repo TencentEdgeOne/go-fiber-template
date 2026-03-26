@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Go Functions on EdgeOne Pages - Fiber Framework",
+  title: "Fiber + EdgeOne Pages",
   description: "Go Functions allow you to run Go web frameworks like Fiber on EdgeOne Pages. Build full-stack applications with Fiber's Express-inspired API and blazing fast performance.",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
-        <link rel="icon" href="/eo-logo-blue.svg" />
+        <link rel="icon" href="/fiber-favicon.svg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
